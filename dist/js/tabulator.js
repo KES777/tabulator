@@ -13011,7 +13011,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 				var matches = [];
 
 				if (editorParams.searchFunc) {
-					matches = editorParams.searchFunc(term, values);
+					matches = editorParams.searchFunc(term, allItems);
 				} else {
 					if (term === "") {
 
